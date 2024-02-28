@@ -1,0 +1,6 @@
+<?php
+require_once 'src/HtmlEncryptor.class.php';
+
+$html = new Html\Encryptor;
+$html->Encrypt();
+?>
